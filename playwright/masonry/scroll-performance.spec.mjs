@@ -1,6 +1,6 @@
 // @flow strict
 import fs from 'fs';
-import { expect, test } from '@playwright/test';
+import { expect, test } from '@chromatic-com/playwright';
 import getServerURL from './utils/getServerURL.mjs';
 import {
   eventsToCsv,

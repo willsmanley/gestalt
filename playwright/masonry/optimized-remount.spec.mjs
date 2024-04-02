@@ -1,5 +1,5 @@
 // @flow strict
-import { expect, test } from '@playwright/test';
+import { expect, test } from '@chromatic-com/playwright';
 import clickButton from './utils/clickButton.mjs';
 import getServerURL from './utils/getServerURL.mjs';
 import selectors from './utils/selectors.mjs';

@@ -1,5 +1,5 @@
 // @flow strict
-import { expect, test } from '@playwright/test';
+import { expect, test } from '@chromatic-com/playwright';
 import getGridItems from './utils/getGridItems.mjs';
 import getServerURL from './utils/getServerURL.mjs';
 import resizeWidth from './utils/resizeWidth.mjs';

@@ -1,5 +1,5 @@
 // @flow strict
-import { test } from '@playwright/test';
+import { test } from '@chromatic-com/playwright';
 import expectAccessiblePage from './expectAccessiblePage.mjs';
 
 test('iOS Card.Header Accessibility check', async ({ page }) => {

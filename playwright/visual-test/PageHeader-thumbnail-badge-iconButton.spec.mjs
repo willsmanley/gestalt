@@ -1,5 +1,5 @@
 // @flow strict
-import { expect, test } from '@playwright/test';
+import { expect, test } from '@chromatic-com/playwright';
 
 const BREAKPOINTS = { xs: 360, sm: 576, md: 768, lg: 1313 };
 

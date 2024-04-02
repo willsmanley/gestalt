@@ -1,5 +1,5 @@
 // @flow strict
-import { expect, test } from '@playwright/test';
+import { expect, test } from '@chromatic-com/playwright';
 
 test('PopoverEducational-dark mode visual regression check', async ({
   page,

@@ -6,7 +6,7 @@ async function generate(page) {
   return await fs.promises.writeFile(
     `./playwright/accessibility/${page}.spec.mjs`,
     `// @flow strict
-import { test } from '@playwright/test';
+import { test } from '@chromatic-com/playwright';
 import expectAccessiblePage from './expectAccessiblePage.mjs';
 
 test('${page} Accessibility check', async ({ page }) => {

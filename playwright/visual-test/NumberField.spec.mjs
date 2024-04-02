@@ -1,5 +1,5 @@
 // @flow strict
-import { expect, test } from '@playwright/test';
+import { expect, test } from '@chromatic-com/playwright';
 
 test('NumberField visual regression', async ({ page }) => {
   await page.goto('/visual-test/NumberField');

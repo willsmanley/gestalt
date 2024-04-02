@@ -1,5 +1,5 @@
 // @flow strict
-import { expect, test } from '@playwright/test';
+import { expect, test } from '@chromatic-com/playwright';
 import countColumns from './utils/countColumns.mjs';
 import getServerURL from './utils/getServerURL.mjs';
 import resizeWidth from './utils/resizeWidth.mjs';
